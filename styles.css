@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+nav h1 {
+    padding-left: 30px;
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+}
+.navLinks {
+    margin-left: 180px;
+}
+.listItem {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+}
+.navIcons {
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.ic1:hover {
+    color: #E3FF04;
+}
+.ic2:hover {
+    color: #E3FF04;
+}
+.navicon {
+    margin-right: 30px;
+}
+.joinbtn {
+    margin: 0px 20px 0px 0px;
+    background-color: #E3FF04;
+    font-weight: 500;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.joinbtn:hover {
+    background-color:black;
+    color:  #E3FF04;
+    border: 1px solid  #E3FF04;;
+}
+.links {
+    text-decoration: none;
+    font-weight: 500;
+    color: aliceblue;
+}
+.links:hover {
+    text-decoration: none;
+    color: yellow;
+}
+#home {
+    display: flex;
+    background-color: #0A0C00;
+}
+.homeContent {
+    width: 100%;
+    height: 100vh;
+
+}
+.homeImg {
+    width: 50%;
+    height: 100%;
+    width: 850px;
+    height: 591px;
+}
+.homeContent p{
+    color: white;
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    line-height: 68px;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-left: 120px;;
+    position: absolute;
+}
+.morebtn {
+    margin: 0px 0px 0px 0px;
+    font-family: "Oswald", sans-serif;
+    background-color: #000000;
+    color: #E3FF04;
+    border: 1px solid #E3FF04;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(950%);
+    margin: 0px 0px 0px 120px;
+    text-decoration: none;
+}
+.morebtn:hover {
+    color: #000000;
+    background-color: #E3FF04;
+}
+h3 {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    font-family: "Oswald", sans-serif;  
+}
+
+.wtypes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px 150px 100px 170px; 
+    gap: 5px;
+}
+.wtype {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+h6{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif; 
+}
+.wtype:hover .wimg{
+    transform: scale(1.15);
+    transition: 0.5s ease;
+}
+.wimg {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+h4 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif; 
+    z-index: 2;
+}
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.aboutServices {
+    width: 50%;
+}
+.aboutServices h5 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;   
+}
+.aboutServices p {
+    font-family: "Jost", sans-serif;
+    font-size: 15px;   
+}
+.serviceGrid {
+    margin: 60px 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.service {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+}
+.gridIcon {
+    padding: 20px 0px 20px 20px;
+}
+.name {
+    text-align: left;
+    padding: 0px 20px 10px 20px;
+}
+.details {
+    font-size: 12px;
+    text-align: left;
+    font-family: "Jost", sans-serif;
+    padding: 0px 20px 30px 20px;
+}
+#fees {
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.packageBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 180px 0px 180px;
+    padding: 30px;
+}
+.package {
+    width: 235px;
+    height: 390px;
+    padding: 20px;
+    background-color: #F6F5F3;
+}
+.pack {
+    width: 195px;
+    height: 350px;
+    padding: 20px;
+    background-color: #F6F5F3;
+}
+.pack h4 {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+.pack h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: left;
+}
+hr {
+    color: #ff0000;
+}
+.pack p {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.pack ul {
+    margin-bottom: 25px;
+}
+.pack ul li {
+    margin-bottom: 5px;
+    list-style: none;
+    font-family: "Jost", sans-serif;
+}
+.pack a {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #F6F5F3;
+    background-color: #000000;
+    padding: 10px;
+}
+.pack a:hover {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid black ;
+}
+.qtr {
+    background-color: #E3FF04;
+}
+#team {
+    background-color: #FFFFFF;
+    margin-top: 60px;
+}
+#team h3 {
+    text-align: left;
+}
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+.l2{
+    justify-content: left;
+    margin: 10px 0px 0px 70px;
+}
+.l2 .teamImage {
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+.teamImage {
+    width: 300px;
+    height: 300px;
+}
+.teamImg {
+    width: 100%;
+    height: 100%;
+}
+.team h5 {
+    text-align: center;
+    font-weight: 400;
+    color: #000000; 
+    font-family: "Jost", sans-serif;
+}
+footer {
+    background-color: #000000;
+    color: azure;
+    padding: 30px;
+    height: 300px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+}
+.footerContent {
+    padding: 30px;
+    width: 50%;
+}
+.footerLink {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerLink ul li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+.footerLink ul li a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footerLink ul li a:hover{
+    color: grey;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.footerContent h1{
+    padding-bottom: 30px;
+}
+.footerLink h2 {
+    font-size: 20px;
+    padding: 0px 0px 20px 0px;
+    font-family: "Oswald", sans-serif;
+}
+#copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+.iconCollections {
+    display: flex;
+}
+.icon {
+    margin: 20px 10px 0px 0px;
+}
+.icon a{
+    margin: 20px 20px 0px 0px;
+    color:azure;
+}
